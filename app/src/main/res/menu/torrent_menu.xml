@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/openFoler"
+        android:title="@string/open_folder"/>
+    <item
+        android:id="@+id/uploadLimit"
+        android:title="@string/upload_limit"/>
+    <item
+        android:id="@+id/downloadLimit"
+        android:title="@string/download_limit"/>
+</menu>

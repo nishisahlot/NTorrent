@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_gravity="fill_vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/view_margin_high"
+            android:paddingRight="@dimen/view_margin_high"
+            android:paddingBottom="?attr/actionBarSize"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textStyle="bold"
+                android:textSize="@dimen/medium_text_size"
+                />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Kung fu panda"
+                android:textSize="@dimen/medium_text_size"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/downloadLocationContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/storage_path"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+                <TextView
+                    android:id="@+id/storagePath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Kung fu panda"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_size"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+                <TextView
+                    android:id="@+id/totalSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Kung fu panda"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/numberOfFilesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number_of_files"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+                <TextView
+                    android:id="@+id/numberOfFiles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Kung fu panda"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                android:id="@+id/dateAddedContainer"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_added"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+                <TextView
+                    android:id="@+id/dateAdded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Kung fu panda"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/view_margin_medium"
+                android:paddingBottom="@dimen/view_margin_medium"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/created_date"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+                <TextView
+                    android:id="@+id/createdDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Kung fu panda"
+                    android:textSize="@dimen/medium_text_size"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+

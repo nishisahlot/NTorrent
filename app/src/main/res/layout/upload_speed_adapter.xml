@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/view_margin_high"
+        android:paddingBottom="@dimen/view_margin_high"
+        >
+    <CheckBox
+        android:id="@+id/speedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="5 Kb/s"
+            android:layout_marginLeft="@dimen/view_margin_high"
+            android:layout_marginStart="@dimen/view_margin_high"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>

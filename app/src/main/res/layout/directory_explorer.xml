@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <include layout="@layout/toolbar"/>
+
+</android.support.design.widget.AppBarLayout>
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="@dimen/activity_horizontal_margin"
+                  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_directory"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/directoryPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Environment/getexternal"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:paddingTop="@dimen/view_margin_high"
+            />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

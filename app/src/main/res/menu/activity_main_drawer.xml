@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group>
+        <item
+            android:id="@+id/movies"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/movies"/>
+        <item
+            android:id="@+id/tvShows"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/tv_shows"/>
+        <item
+            android:id="@+id/bookMark"
+            android:icon="@drawable/ic_bookmark_black_36dp"
+            android:title="@string/bookmars"/>
+
+    </group>
+    <group android:id="@+id/settingGroup">
+    <item
+        android:id="@+id/settings"
+        android:icon="@mipmap/ic_settings"
+        android:title="@string/action_settings" />
+    </group>
+    <group android:id="@+id/miscellaneous">
+       <!-- <item
+            android:id="@+id/inviteFriend"
+            android:title="@string/invite_friends" />-->
+        <!--<item
+            android:id="@+id/rateUs"
+            android:title="@string/r_t_app_title" />-->
+        <item
+            android:id="@+id/sendSuggestion"
+            android:title="@string/send_suggestion" />
+    </group>
+</menu>

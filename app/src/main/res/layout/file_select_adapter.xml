@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:paddingTop="@dimen/view_margin_high"
+              android:paddingBottom="@dimen/view_margin_high"
+              android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/view_margin_high"
+        >
+        <TextView
+            android:id="@+id/fileName"
+            tools:text="Star.Wars.E...Unkky.avi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/large_text_size"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/fileSize"
+            tools:text="1.5 GB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+</LinearLayout>

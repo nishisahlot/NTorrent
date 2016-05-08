@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/portSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/view_margin_high"
+        android:paddingBottom="@dimen/view_margin_high"
+        >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/incoming_port"
+        android:textSize="@dimen/above_medium_text_size"
+        />
+        <TextView
+            android:id="@+id/portNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="6881"
+            android:paddingLeft="@dimen/view_margin_medium"
+            android:paddingRight="@dimen/view_margin_medium"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

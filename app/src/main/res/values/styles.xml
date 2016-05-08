@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="TransAppTheme" parent="AppTheme.NoActionBar"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.BaseActivity">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="DialogTorrent" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/dialog_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="MaterialMoviesDetailField" parent="android:Widget.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="MaterialMoviesReviewTextView" parent="MaterialMoviesDetailField">
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:padding">100dp</item>
+    </style>
+
+    <style name="MaterialMoviesHeaderTextView" parent="android:Widget.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MaterialMoviesDetailConfirmation">
+        <item name="android:scaleX">0</item>
+        <item name="android:scaleY">0</item>
+        <item name="android:visibility">visible</item>
+    </style>
+</resources>
